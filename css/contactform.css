@@ -1,0 +1,81 @@
+/***** Contact form *****/
+#contact-form {
+    position:relative;
+    vertical-align:top;
+    width:100%;
+    z-index:1;
+}
+#contact-form fieldset {
+    border:none;
+    padding:4px 0 0;
+}
+#page1 #contact-form fieldset {padding:0;}
+#page1 #contact-form label.email {min-height:39px;}
+#page1 #contact-form input {color:#848484;}
+#page1 #contact-form textarea {height:90px;color:#848484;}
+#page1 #contact-form label.message {min-height:113px;}
+#page1 #contact-form .success {font-size:14px;line-height:1.24em;}
+
+#contact-form label {
+    display:block;
+    min-height:42px;
+}
+#contact-form label.message {
+    min-height:167px;
+}
+#contact-form input {
+    width:284px;
+    padding:5px 7px 7px;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:13px;
+    line-height:1.384em;
+    color:#656565; 
+    border:1px solid #d8d7d7;
+    background:none;
+}
+#contact-form .area .error { font-size:11px; line-height:2em; float:none;}
+#contact-form textarea {
+    height:130px;
+    margin:0;
+    width:284px;
+    padding:5px 7px;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:13px;
+    line-height:1.384em;
+    color:#656565; 
+    border:1px solid #d8d7d7;
+    background:none;
+    overflow:auto;
+}
+#contact-form a {cursor:pointer;}
+#contact-form .success {display:none; margin-bottom:20px;}
+#contact-form .error,
+#contact-form .empty {
+    color:#f00;
+    font-size:11px;
+    line-height:2em;
+    display:none;
+    overflow:hidden;
+}
+.buttons-wrapper { padding:0 0px 0 0; text-align:left;}
+.buttons-wrapper a { margin-left:6px;}
+
+
+#contact-form a {
+    cursor: pointer;
+}
+form .button {
+    background: none repeat scroll 0 0 #D00D04;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'News Cycle',sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 3px 25px 7px 24px;
+    text-decoration: none;
+}
+.buttons-wrapper a {
+    margin-left: 6px;
+}
