@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,13 +17,13 @@
                     <div class="col contentheading">Md Rezwan Al Islam</div>
                 </div>
                 <div class="row">
-                    <div class="col placeholder"><img src="images/about_me.jpg" alt=" " height="130px" /></div>
+                    <div class="col placeholder"><img src="images/about_me.jpg" alt=" " height="130" /></div>
                     <div class="col contenttext">
                    	  <div class="heading">About</div>
                         <p>Rezwan is a Summa Cum Laude graduate of the class of 2012, School of Communication at Northwestern University in Qatar. He holds a degree in Communication, and is currently pursing a Masters in Digital Media Arts and Instructional Design from Harvard University. </p>
                         <p>&nbsp;</p>
                         
-                        <font size="4">Digital Strategist		 |				 Business Expert</font>
+                        <div id="title">Digital Strategist		 |				 Business Expert</div>
                         <p>&nbsp;</p>
                         
                     </div>
@@ -42,7 +42,6 @@
 Adobe Dreamweaver CC.</div>
                 </div>
             </div>
-        </div>
 	
 		<div id="footer">
             <div id="footercontainer">
